@@ -182,3 +182,42 @@
   width: 90%;
 }
 }
+@media (orientation: landscape) and (max-width:1024px ) {
+  .usersContainer {
+    position: relative;
+    height:auto;
+      
+    
+  }
+  .tileContainer {
+    height: auto;
+    margin: 1%;
+  
+  }
+  .tileContainer img {
+    width: 40%;
+  
+  }
+ 
+  .tileContainer-text h2{
+    font-size: 4vw;
+    
+
+  }
+  .tileContainer-text p{
+    font-size: 2vw;
+  }
+
+.buttonSelect{
+    font-size: 1.5vw;
+}  
+.buttonAdd{
+  height: auto;
+  font-size: 3vw;
+}
+.newUser input{
+  height: auto;
+ font-size: 4vw;
+}
+
+}

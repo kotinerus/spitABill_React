@@ -30,3 +30,6 @@ body {
     align-items: center;
   }
 }
+@media (orientation: landscape) and (max-width:1024px ) {
+  .mainContainer {height: auto;}
+}
