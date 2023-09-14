@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/spitABill_React/static/css/main.01443e6c.css",
+    "main.css": "/spitABill_React/static/css/main.24c9a230.css",
     "main.js": "/spitABill_React/static/js/main.417b9c80.js",
     "static/media/background.png": "/spitABill_React/static/media/background.ab084b935a4a39d516c6.png",
     "index.html": "/spitABill_React/index.html",
-    "main.01443e6c.css.map": "/spitABill_React/static/css/main.01443e6c.css.map",
+    "main.24c9a230.css.map": "/spitABill_React/static/css/main.24c9a230.css.map",
     "main.417b9c80.js.map": "/spitABill_React/static/js/main.417b9c80.js.map"
   },
   "entrypoints": [
-    "static/css/main.01443e6c.css",
+    "static/css/main.24c9a230.css",
     "static/js/main.417b9c80.js"
   ]
 }
