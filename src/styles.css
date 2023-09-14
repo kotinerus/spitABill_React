@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: 'Inter';
+}
+body {
+  background-image: url(../background.png);
+ background-size: cover;
+}
+.mainContainer {
+  background-color: #0D1B2A;
+  width: 80vw;
+  height: 80vh;
+  margin: 10vh auto;
+  border-radius: 100px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+}
+
