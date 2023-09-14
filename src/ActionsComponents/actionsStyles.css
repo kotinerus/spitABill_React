@@ -84,3 +84,63 @@
     font-size: 1.2vw;
     text-transform: uppercase;
    }
+   
+   @media only screen and (max-width: 768px) {
+    
+      .actionsContainer {
+        position: absolute;
+        
+    }
+    .hidden{
+      visibility: hidden;
+    }
+    .actionsContainer h1{
+      font-size: 5vw;
+   }
+    .inputGrid{ 
+     font-size: 2.5vw;
+     width: 80%;
+    }
+    .inputGrid span, .inputGrid input, .inputGrid_select select{
+      font-size: 4vw;
+    }
+    
+     .inputGrid_select{
+      width: 80%;
+      font-size: 2.5vw;
+     }
+   
+     .actionsContainer_split{
+      font-size: 3vw;
+     }
+    }
+    @media only screen and (max-width:1024px ) and (min-width:769px )  {
+    
+      .actionsContainer {
+        position: absolute;
+        
+    }
+    .hidden{
+      visibility: hidden;
+    }
+    .actionsContainer h1{
+      font-size: 5vw;
+   }
+    .inputGrid{ 
+     font-size: 2.5vw;
+     width: 80%;
+    }
+    .inputGrid span, .inputGrid input, .inputGrid_select select{
+      font-size: 4vw;
+    }
+    
+     .inputGrid_select{
+      width: 80%;
+      font-size: 2.5vw;
+     }
+   
+     .actionsContainer_split{
+      font-size: 3vw;
+     }
+    }
+   

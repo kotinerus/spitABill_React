@@ -60,6 +60,7 @@ export default function App() {
     money = myHalf
   }
   setFriends(person => person.map( person=>  person.name === currUser? {...person, balance: Number(person.balance)+Number(money)}:person ))
+  document.querySelector('#actionContainer').classList.add('hidden')
   }
 
 

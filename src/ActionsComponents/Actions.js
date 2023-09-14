@@ -26,7 +26,7 @@ export function Actions({
       : setYourFriendExpense(e.replace(/^0+/, ""));
   }
   return (
-    <form className="actionsContainer" onSubmit={e=>handlePayment(e)}>
+    <form className="actionsContainer hidden" id="actionContainer" onSubmit={e=>handlePayment(e)}>
       <h1>SPLIT A BILL WITH {currUser}</h1>
       <div className="inputGrid">
         <h2>Total bill</h2>
@@ -65,7 +65,7 @@ export function Actions({
           <option value={1}>{currUser}</option>
         </select>
       </div> 
-      <Button />
+      <Button  />
     </form>
   );
 }

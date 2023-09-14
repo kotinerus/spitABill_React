@@ -13,6 +13,7 @@ export function Users({addFriend, handleSetAddFriend, onSetCurrUser, onSetTotalB
     });
 
     onSetCurrUser(person[0].name);
+    document.querySelector('#actionContainer').classList.remove('hidden')
   }
  
   function handleSetName(e){
